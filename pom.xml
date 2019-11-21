@@ -200,10 +200,10 @@
 	</repositories>
 	<pluginRepositories>
 		<pluginRepository>
-			<id>mulesoft-release</id>
+			<id>MuleRepository</id>
 			<name>mulesoft release repository</name>
 			<layout>default</layout>
-			<url>https://repository.mulesoft.org/nexus/content/repositories/releases</url>
+			<url>https://repository.mulesoft.org/nexus-ee/content/repositories/releases-ee/</url>
 			<snapshots>
 				<enabled>false</enabled>
 			</snapshots>

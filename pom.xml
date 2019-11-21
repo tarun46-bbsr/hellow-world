@@ -19,7 +19,7 @@
 		<cloundhub.env>DEV</cloundhub.env>
 		<anypoint.uri>https://anypoint.mulesoft.com/</anypoint.uri>
 		<cloudhub.workerType>Micro</cloudhub.workerType>
-		<cloudhub.workers></cloudhub.workers>
+		<cloudhub.workers>1</cloudhub.workers>
 	</properties>
 
 	<build>
@@ -63,6 +63,7 @@
 			<plugin>
 				<groupId>org.mule.tools.maven</groupId>
 				<artifactId>mule-maven-plugin</artifactId>
+				<version>${mule.tools.version}</version>
 				<configuration>
 					<deploymentType>cloudhub</deploymentType>
 					<muleVersion>${mule.version}</muleVersion>
@@ -74,7 +75,7 @@
 					<region>${cloudhub.region}</region>-->
 					<uri>${anypoint.uri}</uri>
 					<workerType>${cloudhub.workerType}</workerType>
-					<!-- <workers>${cloudhub.workers}</workers> -->
+					<workers>${cloudhub.workers}</workers>
 				</configuration>
 				<executions>
 					<execution>

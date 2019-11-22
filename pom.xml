@@ -69,13 +69,13 @@
 					<muleVersion>${mule.version}</muleVersion>
 					<username>${anypoint.username}</username>
 					<password>${anypoint.password}</password>
-					<applicationName>mule-hello-functional-test-app</applicationName>
+					<!-- <applicationName>mule-hello-functional-test-app</applicationName>-->
 					<environment>${cloundhub.env}</environment>
 					<!-- <businessGroup>${anypoint.businessGroup}</businessGroup> 
 					<region>${cloudhub.region}</region> -->
 					<uri>${anypoint.uri}</uri>
 					<workerType>${cloudhub.workerType}</workerType>
-					<workers>${cloudhub.workers}</workers>
+					<!-- <workers>${cloudhub.workers}</workers> -->
 					<redeploy>true</redeploy>
 				</configuration>
 				<executions>

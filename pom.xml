@@ -69,7 +69,7 @@
 					<muleVersion>${mule.version}</muleVersion>
 					<username>${anypoint.username}</username>
 					<password>${anypoint.password}</password>
-					<!-- <applicationName>${artifactId}</applicationName>-->
+					<applicationName>mule-hello-functional-test-app</applicationName>
 					<environment>${cloundhub.env}</environment>
 					<!-- <businessGroup>${anypoint.businessGroup}</businessGroup> 
 					<region>${cloudhub.region}</region> -->
